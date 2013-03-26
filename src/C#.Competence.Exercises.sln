@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLinq", "SimpleLinq\SimpleLinq.csproj", "{B86A88E9-8AD4-44FF-96A1-7520358E1681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FEF9582-B549-4473-AEA2-490E1D17C212}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{31446B18-FC12-4CE1-9755-2F1B9CB5CE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTrees", "ExpressionTrees\ExpressionTrees.csproj", "{A7892469-A7A6-47A6-9A63-0D5D74ACA1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{62C1554A-7C37-4391-96AD-656754FD81B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4909D0E1-9FED-40B3-8A5F-7FAC21063097}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B86A88E9-8AD4-44FF-96A1-7520358E1681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86A88E9-8AD4-44FF-96A1-7520358E1681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86A88E9-8AD4-44FF-96A1-7520358E1681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86A88E9-8AD4-44FF-96A1-7520358E1681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31446B18-FC12-4CE1-9755-2F1B9CB5CE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31446B18-FC12-4CE1-9755-2F1B9CB5CE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31446B18-FC12-4CE1-9755-2F1B9CB5CE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31446B18-FC12-4CE1-9755-2F1B9CB5CE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7892469-A7A6-47A6-9A63-0D5D74ACA1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7892469-A7A6-47A6-9A63-0D5D74ACA1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7892469-A7A6-47A6-9A63-0D5D74ACA1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7892469-A7A6-47A6-9A63-0D5D74ACA1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C1554A-7C37-4391-96AD-656754FD81B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C1554A-7C37-4391-96AD-656754FD81B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C1554A-7C37-4391-96AD-656754FD81B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C1554A-7C37-4391-96AD-656754FD81B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
